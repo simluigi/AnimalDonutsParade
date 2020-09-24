@@ -1,0 +1,35 @@
+﻿  compilation object save succeeded; see D:\Visual Studio Source Code\DirectX11_Game_2020_09_18_v1.02\pixelShader.cso
+  compilation object save succeeded; see D:\Visual Studio Source Code\DirectX11_Game_2020_09_18_v1.02\vertexShader.cso
+  audio_clip.cpp
+  camera.cpp
+  donut.cpp
+  explosion.cpp
+  field.cpp
+  game.cpp
+  input.cpp
+  light.cpp
+  load_screen.cpp
+  main.cpp
+d:\visual studio source code\directx11_game_2020_09_18_v1.02\main.cpp(106): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  manager.cpp
+  model.cpp
+  order.cpp
+  player.cpp
+  renderer.cpp
+  result.cpp
+  score.cpp
+  sound.cpp
+  title.cpp
+  UI_frame.cpp
+  Compiling...
+  UI_order.cpp
+  UI_result.cpp
+  UI_score.cpp
+  UI_time.cpp
+  UI_title.cpp
+  Generating code
+  624 of 628 functions (99.4%) were compiled, the rest were copied from previous compilation.
+    9 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  GM31_05_20_00Base.vcxproj -> D:\Visual Studio Source Code\DirectX11_Game_2020_09_18_v1.02\Release\GM31_05_20_00Base.exe
