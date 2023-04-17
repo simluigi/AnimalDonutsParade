@@ -1,211 +1,220 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="ソース ファイル">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="ヘッダー ファイル">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="リソース ファイル">
+    <Filter Include="Shaders">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="ソース ファイル\00 Main Program">
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\00 Main Program">
       <UniqueIdentifier>{79f40309-cb42-4458-8f57-84bb8a6a4470}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\03 Data Structures">
+    <Filter Include="Source Files\03 Data Structures">
       <UniqueIdentifier>{43585157-43d9-409e-b56f-517a371d3b05}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\04 Scene Classes">
+    <Filter Include="Source Files\04 Scene Classes">
       <UniqueIdentifier>{6d6315f5-7a02-4902-8350-122a0113d486}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\01 Manager/Input Classes">
+    <Filter Include="Source Files\01 Manager/Input Classes">
       <UniqueIdentifier>{763385bd-50e8-4507-bbec-032c65fbd6e8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\05 Environment Objects">
+    <Filter Include="Source Files\05 Environment Objects">
       <UniqueIdentifier>{4b650b7e-5556-40e0-9604-1b0d4164a7d6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\07 2D Effects">
+    <Filter Include="Source Files\07 2D Effects">
       <UniqueIdentifier>{368faeb0-1721-49de-85cd-cfa6e146f2f3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\06 Interactive Game Objects">
+    <Filter Include="Source Files\06 Interactive Game Objects">
       <UniqueIdentifier>{a4173390-2d1a-4fa8-a7a8-15dbb024487c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\09 UI Elements">
+    <Filter Include="Source Files\09 UI Elements">
       <UniqueIdentifier>{2d23e4b3-5d02-47fd-a2b9-69596afdbd60}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\10 Read/Render Classes">
+    <Filter Include="Source Files\10 Read/Render Classes">
       <UniqueIdentifier>{12bdd3de-e8b5-4626-b02d-661b7a51cd94}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\08 Game Management">
+    <Filter Include="Source Files\08 Game Management">
       <UniqueIdentifier>{6f957ae4-73ef-4312-b044-f50bfc8223d8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="title.cpp">
-      <Filter>ソース ファイル\04 Scene Classes</Filter>
+      <Filter>Source Files\04 Scene Classes</Filter>
     </ClCompile>
     <ClCompile Include="game.cpp">
-      <Filter>ソース ファイル\04 Scene Classes</Filter>
+      <Filter>Source Files\04 Scene Classes</Filter>
     </ClCompile>
     <ClCompile Include="result.cpp">
-      <Filter>ソース ファイル\04 Scene Classes</Filter>
+      <Filter>Source Files\04 Scene Classes</Filter>
     </ClCompile>
     <ClCompile Include="explosion.cpp">
-      <Filter>ソース ファイル\07 2D Effects</Filter>
+      <Filter>Source Files\07 2D Effects</Filter>
     </ClCompile>
     <ClCompile Include="manager.cpp">
-      <Filter>ソース ファイル\01 Manager/Input Classes</Filter>
+      <Filter>Source Files\01 Manager/Input Classes</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>ソース ファイル\00 Main Program</Filter>
+      <Filter>Source Files\00 Main Program</Filter>
     </ClCompile>
     <ClCompile Include="renderer.cpp">
-      <Filter>ソース ファイル\10 Read/Render Classes</Filter>
+      <Filter>Source Files\10 Read/Render Classes</Filter>
     </ClCompile>
     <ClCompile Include="model.cpp">
-      <Filter>ソース ファイル\10 Read/Render Classes</Filter>
+      <Filter>Source Files\10 Read/Render Classes</Filter>
     </ClCompile>
     <ClCompile Include="donut.cpp">
-      <Filter>ソース ファイル\06 Interactive Game Objects</Filter>
+      <Filter>Source Files\06 Interactive Game Objects</Filter>
     </ClCompile>
     <ClCompile Include="player.cpp">
-      <Filter>ソース ファイル\06 Interactive Game Objects</Filter>
+      <Filter>Source Files\06 Interactive Game Objects</Filter>
     </ClCompile>
     <ClCompile Include="camera.cpp">
-      <Filter>ソース ファイル\05 Environment Objects</Filter>
+      <Filter>Source Files\05 Environment Objects</Filter>
     </ClCompile>
     <ClCompile Include="light.cpp">
-      <Filter>ソース ファイル\05 Environment Objects</Filter>
+      <Filter>Source Files\05 Environment Objects</Filter>
     </ClCompile>
     <ClCompile Include="input.cpp">
-      <Filter>ソース ファイル\01 Manager/Input Classes</Filter>
+      <Filter>Source Files\01 Manager/Input Classes</Filter>
     </ClCompile>
     <ClCompile Include="order.cpp">
-      <Filter>ソース ファイル\08 Game Management</Filter>
+      <Filter>Source Files\08 Game Management</Filter>
     </ClCompile>
     <ClCompile Include="field.cpp">
-      <Filter>ソース ファイル\05 Environment Objects</Filter>
+      <Filter>Source Files\05 Environment Objects</Filter>
     </ClCompile>
     <ClCompile Include="score.cpp">
-      <Filter>ソース ファイル\08 Game Management</Filter>
+      <Filter>Source Files\08 Game Management</Filter>
     </ClCompile>
     <ClCompile Include="load_screen.cpp">
-      <Filter>ソース ファイル\07 2D Effects</Filter>
+      <Filter>Source Files\07 2D Effects</Filter>
     </ClCompile>
     <ClCompile Include="audio_clip.cpp">
-      <Filter>ソース ファイル\10 Read/Render Classes</Filter>
+      <Filter>Source Files\10 Read/Render Classes</Filter>
     </ClCompile>
     <ClCompile Include="sound.cpp">
-      <Filter>ソース ファイル\05 Environment Objects</Filter>
+      <Filter>Source Files\05 Environment Objects</Filter>
     </ClCompile>
     <ClCompile Include="UI_frame.cpp">
-      <Filter>ソース ファイル\09 UI Elements</Filter>
+      <Filter>Source Files\09 UI Elements</Filter>
     </ClCompile>
     <ClCompile Include="UI_order.cpp">
-      <Filter>ソース ファイル\09 UI Elements</Filter>
+      <Filter>Source Files\09 UI Elements</Filter>
     </ClCompile>
     <ClCompile Include="UI_result.cpp">
-      <Filter>ソース ファイル\09 UI Elements</Filter>
+      <Filter>Source Files\09 UI Elements</Filter>
     </ClCompile>
     <ClCompile Include="UI_score.cpp">
-      <Filter>ソース ファイル\09 UI Elements</Filter>
+      <Filter>Source Files\09 UI Elements</Filter>
     </ClCompile>
     <ClCompile Include="UI_time.cpp">
-      <Filter>ソース ファイル\09 UI Elements</Filter>
+      <Filter>Source Files\09 UI Elements</Filter>
     </ClCompile>
     <ClCompile Include="UI_title.cpp">
-      <Filter>ソース ファイル\09 UI Elements</Filter>
+      <Filter>Source Files\09 UI Elements</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="game.h">
-      <Filter>ソース ファイル\04 Scene Classes</Filter>
+      <Filter>Source Files\04 Scene Classes</Filter>
     </ClInclude>
     <ClInclude Include="title.h">
-      <Filter>ソース ファイル\04 Scene Classes</Filter>
+      <Filter>Source Files\04 Scene Classes</Filter>
     </ClInclude>
     <ClInclude Include="result.h">
-      <Filter>ソース ファイル\04 Scene Classes</Filter>
+      <Filter>Source Files\04 Scene Classes</Filter>
     </ClInclude>
     <ClInclude Include="explosion.h">
-      <Filter>ソース ファイル\07 2D Effects</Filter>
+      <Filter>Source Files\07 2D Effects</Filter>
     </ClInclude>
     <ClInclude Include="manager.h">
-      <Filter>ソース ファイル\01 Manager/Input Classes</Filter>
+      <Filter>Source Files\01 Manager/Input Classes</Filter>
     </ClInclude>
     <ClInclude Include="main.h">
-      <Filter>ソース ファイル\00 Main Program</Filter>
+      <Filter>Source Files\00 Main Program</Filter>
     </ClInclude>
     <ClInclude Include="renderer.h">
-      <Filter>ソース ファイル\10 Read/Render Classes</Filter>
+      <Filter>Source Files\10 Read/Render Classes</Filter>
     </ClInclude>
     <ClInclude Include="model.h">
-      <Filter>ソース ファイル\10 Read/Render Classes</Filter>
+      <Filter>Source Files\10 Read/Render Classes</Filter>
     </ClInclude>
     <ClInclude Include="game_object.h">
-      <Filter>ソース ファイル\03 Data Structures</Filter>
+      <Filter>Source Files\03 Data Structures</Filter>
     </ClInclude>
     <ClInclude Include="scene.h">
-      <Filter>ソース ファイル\03 Data Structures</Filter>
+      <Filter>Source Files\03 Data Structures</Filter>
     </ClInclude>
     <ClInclude Include="donut.h">
-      <Filter>ソース ファイル\06 Interactive Game Objects</Filter>
+      <Filter>Source Files\06 Interactive Game Objects</Filter>
     </ClInclude>
     <ClInclude Include="player.h">
-      <Filter>ソース ファイル\06 Interactive Game Objects</Filter>
+      <Filter>Source Files\06 Interactive Game Objects</Filter>
     </ClInclude>
     <ClInclude Include="camera.h">
-      <Filter>ソース ファイル\05 Environment Objects</Filter>
+      <Filter>Source Files\05 Environment Objects</Filter>
     </ClInclude>
     <ClInclude Include="light.h">
-      <Filter>ソース ファイル\05 Environment Objects</Filter>
+      <Filter>Source Files\05 Environment Objects</Filter>
     </ClInclude>
     <ClInclude Include="input.h">
-      <Filter>ソース ファイル\01 Manager/Input Classes</Filter>
+      <Filter>Source Files\01 Manager/Input Classes</Filter>
     </ClInclude>
     <ClInclude Include="order.h">
-      <Filter>ソース ファイル\08 Game Management</Filter>
+      <Filter>Source Files\08 Game Management</Filter>
     </ClInclude>
     <ClInclude Include="field.h">
-      <Filter>ソース ファイル\05 Environment Objects</Filter>
+      <Filter>Source Files\05 Environment Objects</Filter>
     </ClInclude>
     <ClInclude Include="score.h">
-      <Filter>ソース ファイル\08 Game Management</Filter>
+      <Filter>Source Files\08 Game Management</Filter>
     </ClInclude>
     <ClInclude Include="load_screen.h">
-      <Filter>ソース ファイル\07 2D Effects</Filter>
+      <Filter>Source Files\07 2D Effects</Filter>
     </ClInclude>
     <ClInclude Include="audio_clip.h">
-      <Filter>ソース ファイル\10 Read/Render Classes</Filter>
+      <Filter>Source Files\10 Read/Render Classes</Filter>
     </ClInclude>
     <ClInclude Include="sound.h">
-      <Filter>ソース ファイル\05 Environment Objects</Filter>
+      <Filter>Source Files\05 Environment Objects</Filter>
     </ClInclude>
     <ClInclude Include="UI_frame.h">
-      <Filter>ソース ファイル\09 UI Elements</Filter>
+      <Filter>Source Files\09 UI Elements</Filter>
     </ClInclude>
     <ClInclude Include="UI_order.h">
-      <Filter>ソース ファイル\09 UI Elements</Filter>
+      <Filter>Source Files\09 UI Elements</Filter>
     </ClInclude>
     <ClInclude Include="UI_result.h">
-      <Filter>ソース ファイル\09 UI Elements</Filter>
+      <Filter>Source Files\09 UI Elements</Filter>
     </ClInclude>
     <ClInclude Include="UI_score.h">
-      <Filter>ソース ファイル\09 UI Elements</Filter>
+      <Filter>Source Files\09 UI Elements</Filter>
     </ClInclude>
     <ClInclude Include="UI_time.h">
-      <Filter>ソース ファイル\09 UI Elements</Filter>
+      <Filter>Source Files\09 UI Elements</Filter>
     </ClInclude>
     <ClInclude Include="UI_title.h">
-      <Filter>ソース ファイル\09 UI Elements</Filter>
+      <Filter>Source Files\09 UI Elements</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="pixelShader.hlsl" />
-    <FxCompile Include="vertexShader.hlsl" />
+    <FxCompile Include="pixelShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="vertexShader.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="common.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="pixelLightingPS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="pixelLightingVS.hlsl">
+      <Filter>Shaders</Filter>
+    </FxCompile>
   </ItemGroup>
 </Project>
