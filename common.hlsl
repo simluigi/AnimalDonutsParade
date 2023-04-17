@@ -81,8 +81,6 @@ cbuffer ParameterBuffer : register(b6)
     float4 Parameter;
 }
 
-
-
 //==========================
 // 2020.09.01
 // look up semantic: POSITION0, SV_POSITION, etc
